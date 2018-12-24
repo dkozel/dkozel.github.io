@@ -2,15 +2,14 @@
 <html lang="en-us">
 <head>
 	<title>
-		About - Derek Kozel
+	Derek Kozel : 404
+
 	</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="index,follow">
 	<base href="https://www.derekkozel.com/">
-	<link rel="canonical" href="https://www.derekkozel.com/about/"><meta name="description" content="The personal site of Derek Kozel"> 
-	<link rel="alternate" type="application/rss&#43;xml" 
-	      href="https://www.derekkozel.com/about/rss.xml" title="Derek Kozel">
+	
 	<link rel="preload" href="https://www.derekkozel.com/css/smorg.min.css" as="style">
 	<link rel="stylesheet" href="https://www.derekkozel.com/css/smorg.min.css">
   <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
@@ -18,7 +17,7 @@
 
 </head>
 <body>
-		
+   
 	<nav class="navbar" aria-label="main navigation">
 		<div class="container">
 			<div class="navbar-brand">
@@ -54,40 +53,29 @@
 			</div>
 		</div>
 	</nav>
+
+
 <section class="section" itemscope itemtype="http://schema.org/WebPage">
 	<div class="container">
 		<div class="columns">
 			<div class="column is-8 is-offset-2">
 				<article class="content">
-          <h1 class="title is-3">About</h1></br>
-					<p class="subtitle is-6 has-text-grey">
-					<em></em></p>
-
-
-<figure class="image" >
-    <img src="/about/dkozel_portrait.jpg"
-         alt="A photo of Derek Kozel"
-         class="is-rounded"/> 
-</figure>
-
-<p>Hello and welcome to my site. My name is Derek. I&rsquo;m an electrical engineer with a particular passion for embedded sytems, RF communications, and aerospace applications. I am an Amateur Radio operator currently focusing on the design and construction of systems for microwave bands. Prior to my current work I&rsquo;ve worked on Software Defined cellular basestation radios and developed low power sensor nodes. My masters work and courses involved evolutionary algorithms and low power computer architecture and software design.</p>
-
-<p>When not playing with something with bits or volts I enjoy cycling, diving, and cooking.</p>
-
-<p>This site centers on my engineering interests but will inevitably include occasional posts and references to anything I feel passionate about. The wiki serves as an informal and incomplete information repository and everything should be taken with an unhealthy heap of salt. That said, I hope all the material avaliable proves some use and you enjoy my site.</p>
-
-<h3 id="contact">Contact</h3>
-
-<p>Please feel free to contact me at <a href="mailto:derek.kozel@gmail.com">derek.kozel@gmail.com</a> or find me on the Fediverse <a href="https://social.coop/@dkozel">@dkozel/@social.coop</a> or Twitter <a href="http://www.twitter.com/derekkozel">@derekkozel</a>.</p>
-
-<h3 id="colophon">Colophon</h3>
-
-<p>The site is generated using <a href="http://gohugo.io/">Hugo</a> and uses <a href="https://www.mathjax.org/">MathJax</a> and <a href="http://pygments.org/">Pygments</a>. The theme is <a href="https://github.com/solutionsroute/hugo-smorg">hugo-smorg</a>. I compose the posts using Vim with a variety of <a href="https://github.com/dkozel/vimfiles">customizations</a>. All files for the site and wiki are managed using Git.</p>
-
-<p>The domain and DNS are managed by <a href="https://www.nearlyfreespeech.net/">NearlyFreeSpeech</a>.</p>
-
-					
-
+					<h1 class="title has-text-danger">Page Not Found</h1>
+					<p class="subtitle">The URL you've requested cannot be found on this web site.</p>
+					<p><code id="errorurl"></code></p>
+					<p>Sections of this site include:</p>
+					<ul>
+						<li><a href="https://www.derekkozel.com/">Home</a></li>
+			
+			<li><a class="" href="post/">Posts</a></li>
+			
+			<li><a class="" href="project/">Projects</a></li>
+			
+			<li><a class="" href="talks/">Talks</a></li>
+			
+			<li><a class="" href="about/">About</a></li>
+			
+					</ul>
 				</article>
 			</div>
 		</div>
@@ -113,16 +101,9 @@
   </div>
 </footer>
 
-
-<script type="application/ld+json">
-{ 
-	"@context": "http://schema.org", 
-	"@type": "WebPage",
-	"@id": "https://www.derekkozel.com/about/",
-	"name": "About",
-}
+<script>
+	document.getElementById("errorurl").innerHTML = document.location.origin + document.location.pathname;
 </script>
-
 
 
 
@@ -142,6 +123,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
  
+
 
 </body>
 </html>

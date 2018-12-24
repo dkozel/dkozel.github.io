@@ -1,0 +1,138 @@
+<!DOCTYPE html> 
+<html lang="en-us">
+<head>
+	<title>
+		Pelco Pan Tilt head - Derek Kozel
+	</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index,follow">
+	<base href="https://www.derekkozel.com/">
+	<link rel="canonical" href="https://www.derekkozel.com/post/pelco-pan-tilt-head/"><meta name="description" content="The personal site of Derek Kozel">
+	<link rel="preload" href="https://www.derekkozel.com/css/smorg.min.css" as="style">
+	<link rel="stylesheet" href="https://www.derekkozel.com/css/smorg.min.css">
+  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+	<meta name="generator" content="Hugo 0.52" />
+
+</head>
+<body>
+		
+	<nav class="navbar" aria-label="main navigation">
+		<div class="container">
+			<div class="navbar-brand">
+				<a class="navbar-item has-text-white-ter" 
+				   href="https://www.derekkozel.com/"><span class="has-text-weight-bold"><span class="has-text-weight-bold">Derek <span class="has-text-danger">Kozel</span></span></span>
+</a>
+				<div class="navbar-burger burger" data-target="navMenu">
+				  <span></span>
+				  <span></span>
+				  <span></span>
+				</div>
+			</div>
+			<div class="navbar-menu" id="navMenu">
+				<div class="navbar-end">
+					
+	<a class="navbar-item" href="https://www.derekkozel.com/post/">Posts</a>
+
+	<div class="navbar-item has-dropdown is-hoverable">
+		
+	<a class="navbar-link" href="https://www.derekkozel.com/project/">Projects</a>
+<div class="navbar-dropdown">
+	<a class="navbar-item" href="https://www.derekkozel.com/project/ltz1000">LTZ1000</a>
+</div>
+	</div>
+	<a class="navbar-item" href="https://www.derekkozel.com/talks/">Talks</a>
+
+	<a class="navbar-item" href="https://www.derekkozel.com/about/">About</a>
+
+
+
+
+				</div>
+			</div>
+		</div>
+	</nav>
+<section class="section" itemscope itemtype="http://schema.org/WebPage">
+	<div class="container">
+		<div class="columns">
+			<div class="column is-8 is-offset-2">
+				<article class="content">
+          <h1 class="title is-3">Pelco Pan Tilt head</h1></br>
+					<p class="subtitle is-6 has-text-grey">
+					<em>Posted 
+<time datetime="2015-08-05">5 August 2015</time></em></p>
+<p>For some time I&rsquo;ve been working on a setup for receiving from, and eventually transmitting to, satellites and other moving aerial targets such as high altitude balloons. The initial design was based off of the work done by the <a href="https://satnogs.org/">SatNOGS</a> team, but ran into reliability issues when 3D printing a revised version of the helical antenna joints. Additionally the SatNOGS design is being iterated at the moment and their rotator design wasn&rsquo;t complete. In searching for alternative elevation azimuth rotator designs a few options came up:</p>
+
+<ul>
+<li>Build a SatNOGS style rotator from servos</li>
+<li>Join two single axis satellite dish rotators</li>
+<li>Use a manual pan tilt head such as the Quickset Herculese line</li>
+<li>Buy a commercial two axis antenna rotator
+<!-- more --></li>
+</ul>
+
+<p>Each of these was a viable design with examples of working systems easy to find online. However given limited time and money non was a good match for me. Then another option came up, using a pan tilt head for CCTV cameras! These are built for a high duty cycle, heavy loads, remote operation, and long life spans. The trade off is that they are generally expensive, have odd power requirements, and often quite heavy. The control systems also come in a variety of physical styles and protocols. The nicest ones have RS 485 interfaces with well documented protocols.</p>
+
+<p>What I ended up with is a Pelco PT280-24P head with a MPT24DT controller which doubles as a power supply. The head&rsquo;s motors run directly off of 24VAC lines coming from the controller which has a single interface, a joystick. The controller unfortunately runs off of 120VAC so I&rsquo;m looking into buying a 12VDC to 24VAC boost inverter so I can run it either from an easily sourced wall brick or from batteries/solar while portable. The joystick interface should be simple to integrate with using some analog outputs. However there is no positioning feedback from the head so that&rsquo;s another feature which will need to be added. I&rsquo;m not sure if using one of the inexpensive accelerometer/gyro/magnetometer boards is overkill so will probably start with simple potentiometer based feedback. The PT280-24P/PP model includes this feedback as well as circuitry to move the camera to specific set points. Documentation online indicates that the internal hardware is missing so a simple breakout modification is not possible. Another option is to add a camera with a computer vision based feedback, but this is almost certainly adding complication for the sake of being fancy.</p>
+
+<p>The head and controller are in the mail now so I&rsquo;ll start work on the system after returning from an upcoming conference.</p>
+
+					
+
+				</article>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer class="footer">
+  <div class="container content">
+	<div class="has-text-centered">
+		<p>Thoughts, Tips, and Trivialities
+			  
+		   <span class="has-text-weight-bold">Derek <span class="has-text-danger">Kozel</span></span>
+			   
+		   </p>
+		<hr>
+		<p class="has-text-grey is-size-7">
+		 <i class="fab fa-github"></i> <a href="https://github.com/dkozelg">github.com/dkozel</a><br>
+			   
+		 &copy; Derek Kozel<br>
+			   
+		</p>
+	</div>
+  </div>
+</footer>
+
+
+<script type="application/ld+json">
+{ 
+	"@context": "http://schema.org", 
+	"@type": "WebPage",
+	"@id": "https://www.derekkozel.com/post/pelco-pan-tilt-head/",
+	"name": "Pelco Pan Tilt head",
+}
+</script>
+
+
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+  if ($navbarBurgers.length > 0) {
+    $navbarBurgers.forEach(function ($el) {
+      $el.addEventListener('click', function () {
+        var target = $el.dataset.target;
+        var $target = document.getElementById(target);
+        $el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+      });
+    });
+  }
+});
+</script>
+ 
+
+</body>
+</html>

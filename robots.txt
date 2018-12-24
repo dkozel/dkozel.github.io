@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: 
+Disallow: /secretloginpage
 
-Sitemap: http://dkozel.github.io/sitemap.xml 
+Sitemap: https://www.derekkozel.com/sitemap.xml
