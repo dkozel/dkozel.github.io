@@ -6,6 +6,8 @@
     <description>Recent content in Projects on Derek Kozel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>derek@bitstovolts.com (Derek Kozel)</managingEditor>
+    <webMaster>derek@bitstovolts.com (Derek Kozel)</webMaster>
     <copyright>&amp;copy; Derek Kozel</copyright>
     <lastBuildDate>Sun, 23 Dec 2018 15:51:58 +0000</lastBuildDate>
     
@@ -16,7 +18,7 @@
       <title>Voltage Reference</title>
       <link>https://www.derekkozel.com/project/ltz1000/</link>
       <pubDate>Mon, 24 Dec 2018 05:51:58 +0000</pubDate>
-      
+      <author>derek@bitstovolts.com (Derek Kozel)</author>
       <guid>https://www.derekkozel.com/project/ltz1000/</guid>
       <description>I&amp;rsquo;m building three voltage references based on the Analog Devices (Linear Tech) LTZ1000.
 Details to be added!</description>
