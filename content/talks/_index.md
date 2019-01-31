@@ -7,6 +7,13 @@ layout: single
 slug: talks 
 ---
 
+**Intro to GNU Radio**  
+_Hackerspace Brussels_  
+January 31, 2019  
+[Event](https://hsbxl.be/events/byteweek/2019/gnuradio-analog-digital-communications/) 
+[Slides](/talks/hsbxl19_Intro_to_GNURadio.pdf) 
+[Flowgraphs](/talks/hsbxl19_flowgraphs.zip) 
+
 **Digital Predistortion**  
 _FOSDEM: Free and Open source Software Developers European Meeting_  
 February 3, 2019  
