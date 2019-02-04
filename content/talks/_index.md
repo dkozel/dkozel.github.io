@@ -7,17 +7,19 @@ layout: single
 slug: talks 
 ---
 
+**Digital Predistortion**  
+_FOSDEM: Free and Open source Software Developers European Meeting_  
+February 3, 2019  
+[Event](https://fosdem.org/2019/schedule/event/sdr_dpd/) 
+[Slides](/talks/FOSDEM2019_Digital_PreDistortion.pdf)
+[Flowgraphs](/talks/FOSDEM2019_flowgraphs.zip)
+
 **Intro to GNU Radio**  
 _Hackerspace Brussels_  
 January 31, 2019  
 [Event](https://hsbxl.be/events/byteweek/2019/gnuradio-analog-digital-communications/) 
 [Slides](/talks/hsbxl19_Intro_to_GNURadio.pdf) 
 [Flowgraphs](/talks/hsbxl19_flowgraphs.zip) 
-
-**Digital Predistortion**  
-_FOSDEM: Free and Open source Software Developers European Meeting_  
-February 3, 2019  
-[Event](https://fosdem.org/2019/schedule/event/sdr_dpd/)  
 
 **SDR and DSP with GNU Radio**  
 _Cardiff University_  
