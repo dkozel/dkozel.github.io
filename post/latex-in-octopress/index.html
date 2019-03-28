@@ -18,7 +18,7 @@
 
 	<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
 
-	<meta name="generator" content="Hugo 0.52" />
+	<meta name="generator" content="Hugo" />
 
 </head>
 <body>
@@ -87,9 +87,9 @@
   <span class="o">&gt;</span> <span class="nt">div</span> <span class="p">{</span>
     <span class="nt">background</span><span class="nd">:</span> <span class="err">$</span><span class="nt">sidebar-bg</span> <span class="err">$</span><span class="nt">noise-bg</span><span class="o">;</span></code></pre></div>
 <p>needs to be changed to</p>
-<div class="highlight"><pre class="chroma"><code class="language-sass" data-lang="sass"><span class="err">body {</span>
-<span class="err">  &gt; div#main {</span>
-<span class="err">    background: $sidebar-bg $noise-bg;</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-sass" data-lang="sass"><span class="nt">body</span> <span class="err">{</span>
+  <span class="o">&gt;</span> <span class="nt">div</span><span class="nn">#main</span> <span class="err">{</span>
+<span class="err">    </span><span class="na">background</span><span class="o">:</span> <span class="nv">$sidebar-bg</span> <span class="nv">$noise-bg</span><span class="err">;</span></code></pre></div>
 <p>And the result, an attractive Fourier Transform equation</p>
 
 <p>$$ F(\omega) = \int_{-\infty}^\infty f(t) e^{-i \omega t} dt. $$</p>
