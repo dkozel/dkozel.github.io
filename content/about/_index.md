@@ -7,7 +7,7 @@ layout: single
 slug: about 
 ---
 
-<figure class="image" >
+<figure class="image is-128x128">
     <img src="/about/dkozel_portrait.jpg"
          alt="A photo of Derek Kozel"
          class="is-rounded"/> 
@@ -21,7 +21,7 @@ This site centers on my engineering interests but will inevitably include occasi
 
 ### Contact
 
-Please feel free to contact me at [derek.kozel@gmail.com](mailto:derek.kozel@gmail.com) or find me on the Fediverse [@dkozel/@social.coop](https://social.coop/@dkozel) or Twitter [@derekkozel](http://www.twitter.com/derekkozel).
+Please feel free to contact me at [derek@bitstovolts.com](mailto:derek@bitstovolts.com) or Twitter [@derekkozel](http://www.twitter.com/derekkozel).
 
 ### Colophon
 
