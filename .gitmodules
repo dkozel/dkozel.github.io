@@ -1,0 +1,3 @@
+[submodule "themes/hugo-smorg"]
+	path = themes/hugo-smorg
+	url = git@github.com:dkozel/hugo-smorg
