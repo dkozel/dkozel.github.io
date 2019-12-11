@@ -136,11 +136,17 @@ menu:
           identifier: "hire-me"
           weight: 40
 
+        - name: "Consulting"
+          url: "hire-me/"
+          identifier: "consulting"
+          parent: "hire-me"
+          weight: 401
+        
         - name: "Training"
           url: "training/"
           identifier: "training"
           parent: "hire-me"
-          weight: 401
+          weight: 402
 
         - name: "About"
           url: "about/"
