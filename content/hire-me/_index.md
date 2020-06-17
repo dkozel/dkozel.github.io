@@ -7,11 +7,11 @@ layout: single
 slug: hire-me 
 ---
 
-I am currently working on high efficiency RF power amplifier design as a PhD researcher at Cardiff University's Centre for High Frequency Engineering. Due to this I am not accepting any contracts longer than a few days, or an average of half a day a week for longer contracts. 
+I am currently working on high efficiency RF power amplifier design as a PhD researcher at Cardiff University's Centre for High Frequency Engineering. Due to this and side-effects of the Coronavirus pandemic I am not accepting any work at the moment. If you are looking for information about GNU Radio, workshops, or are looking for contractors please contact me and I'll do my best to connect you with people who are able to provid these services. 
 
 ## Workshops
 
-I run workshops and direct training sessions covering Software Defined Radio, GNU Radio, Ettus Research/National Instruments USRP Radios, and the RFNoC FPGA Digital Signal Processing framework.
+I have run workshops and direct training sessions covering Software Defined Radio, GNU Radio, Ettus Research/National Instruments USRP Radios, and the RFNoC FPGA Digital Signal Processing framework.
 
 <a href="/training" class="button is-link">Workshop Details</a>
 
@@ -21,4 +21,4 @@ At this time I am not accepting contracts for non-SDR or RF related work.
 
 ## Contact
 
-If you would like to hire me or have questions: [derek@bitstovolts.com](mailto:derek@bitstovolts.com)
+If you have questions: [derek@bitstovolts.com](mailto:derek@bitstovolts.com)
