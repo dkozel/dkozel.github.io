@@ -4,7 +4,7 @@
 #
 # Every site needs these few: theme, baseURL, languageCode and title
 # Name of the theme your Hugo site uses; leave this in place:
-theme: "hugo-smorg"
+theme: "bulma-kiss"
 baseURL: "https://www.derekkozel.com/"
 languageCode: "en-us"
 title: "Derek Kozel"
@@ -24,7 +24,7 @@ author:
 copyright: "&copy; Derek Kozel"
 
 # metaDataFormat for new content pages generated with the `hugo new` command if
-# not otherwise specified by an archetype. Hugo-Smorg theme examples all use
+# not otherwise specified by an archetype. Bulma KISS theme examples all use
 # the easy to understand and write YAML format.
 metaDataFormat: yaml
 
@@ -71,10 +71,6 @@ enableEmoji: false
 params: 
     # debug: true causes template path to be output at top of page, handy for dev
     debug: false 
-
-    # cssPath: <css/smorg.css> site main CSS; can be supplemented by including
-    # link or style elements in a custom site partials/head-custom.html
-    cssPath: 'css/smorg.min.css' # Default, override here
 
     # only_feed_summaries: Include only Page summaries in Atom and RSS feeds. 
     only_feed_summaries: true
