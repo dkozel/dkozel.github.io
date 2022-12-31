@@ -52,8 +52,6 @@ Parts were still in shipment and the CPU cooler (more on that later) was stuck i
 
 [Neil Smith](https://twitter.com/G4DBN) G4DBN is a friendly acquaintence who I've met a few times at the RSGB Convention and been an avid follower of on Twitter for a while now. He does really awesome metal working in his home shop and has volunteered in the past to do some work for the Cardiff University Amateur Radio Society. I reached out  with my sketch and he agreed to take on the job.
 
-{{< tweet 1199704518700806151 >}}
-
 Fair to say he more than did justice to it. And if you look back at the Pencil CAD drawing and see the scratch out on the center left screw hole... that correction was done after he'd cut out the center pocket. I don't know what he did to fix that, but I definitely owe him a drink for it.
 
 With that plate installed everything else could get installed into the case. At this point I actually had a different fan than the one listed above, the ID-Cooling IS-60. It ended up not fitting in any orientation and I thought I could use a saw to make it fit. As it turns out, no, that did not work. It was resting on top of the RAM and that 1mm of deflection was enough to make the side of the case not fit on.
