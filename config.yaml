@@ -85,9 +85,9 @@ params:
 
     # Sites should customize their logo or wordmark here; Provided via partials/logo.html.
     # used in default navigation and footer.
-    logotype: '<span class="has-text-weight-bold">Derek <span class="has-text-danger">Kozel</span></span>' 
+    logotype: '<span class="has-text-weight-bold">Derek <span class="has-text-grey">Kozel</span></span>' 
     footer: 'Thoughts, Tips, and Trivialities'
-    subfooter: '<i class="fab fa-github"></i> <a href="https://github.com/dkozelg">github.com/dkozel</a>'
+    subfooter: '<i class="fab fa-github"></i> <a href="https://github.com/dkozel">github.com/dkozel</a>'
 
     # Optional information used in RSS, Atom and JSON-LD microdata. See Schema.org.
     publisher:

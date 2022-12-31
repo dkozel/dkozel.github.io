@@ -7,11 +7,7 @@ layout: single
 slug: about 
 ---
 
-<figure class="image is-128x128">
-    <img src="/about/dkozel_portrait.jpg"
-         alt="A photo of Derek Kozel"
-         class="is-rounded"/> 
-</figure>
+{{< figure src="/about/dkozel_portrait.jpg" alt="A photo of Derek Kozel" class="image is-128x128" imgclass="is-rounded" >}}
 
 Hello and welcome to my site. My name is Derek. I'm an electrical engineer with a particular passion for embedded sytems, RF communications, and aerospace applications. I am an Amateur Radio operator currently focusing on the design and construction of systems for microwave bands. Prior to my current work I've worked on Software Defined cellular basestation radios and developed low power sensor nodes. My masters work and courses involved evolutionary algorithms and low power computer architecture and software design.
 
@@ -21,11 +17,11 @@ This site centers on my engineering interests but will inevitably include occasi
 
 ### Contact
 
-Please feel free to contact me at [derek@bitstovolts.com](mailto:derek@bitstovolts.com) or Twitter [@derekkozel](http://www.twitter.com/derekkozel).
+Please feel free to contact me at [derek@derekkozel.com](mailto:derek@derekkozel.com) or Mastodon [@dkozel@social.coop](http://social.coop/@dkozel).
 
 ### Colophon
 
-The site is generated using [Hugo](http://gohugo.io/) and uses [MathJax](https://www.mathjax.org/) and [Pygments](http://pygments.org/). The theme is [hugo-smorg](https://github.com/solutionsroute/hugo-smorg). I compose the posts using Vim with a variety of [customizations](https://github.com/dkozel/vimfiles). All files for the site and wiki are managed using Git.
+The site is generated using [Hugo](http://gohugo.io/) and uses [MathJax](https://www.mathjax.org/) and [Pygments](http://pygments.org/). The theme is [bulma-kiss](https://github.com/dkozel/hugo-bulma-kiss). I compose the posts using Vim with a variety of [customizations](https://github.com/dkozel/vimfiles). All files for the site and wiki are managed using Git.
 
 The domain and DNS are managed by [NearlyFreeSpeech](https://www.nearlyfreespeech.net/).
 
