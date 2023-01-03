@@ -1,3 +1,3 @@
-[submodule "themes/hugo-smorg"]
+[submodule "themes/bulma-kiss"]
 	path = themes/bulma-kiss
-	url = git@github.com:dkozel/hugo-smorg
+	url = git@github.com:dkozel/hugo-bulma-kiss
