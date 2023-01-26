@@ -5,6 +5,10 @@ date: 2018-12-24T05:51:58-00:00
 draft: false
 layout: single 
 slug: workstation-pc
+menu: 
+  sectionmenu:
+    parent: project
+    weight: 10
 ---
 
 ![Completed workstation computer](/project/workstation_thumbsup.jpg)

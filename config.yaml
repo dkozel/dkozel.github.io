@@ -106,21 +106,15 @@ params:
 # NOTE: Don't put leading "/" in the url parameter
 menu:
     sectionmenu:
-#        - name: "Posts"
-#          url: "post/"
-#          identifier: "post"
-#          weight: 10
+        - name: "Posts"
+          url: "post/"
+          identifier: "post"
+          weight: 10
 
         - name: "Projects"
           url: "project/"
           identifier: "project"
           weight: 20
-
-        - name: "LTZ1000"
-          url: "project/ltz1000"
-          identifier: "ltz1000"
-          parent: project
-          weight: 201
 
         - name: "Talks"
           url: "talks/"

@@ -14,7 +14,7 @@ Before returning to academia I worked at [Ettus Research](https://www.ettus.com)
 
 When not working on engineering topics I play the fiddle, cycle, and bake. This site is subject to entropy and aging just as much as anything so I hope you find something of interest.
 
----
+-|-|-
 
 Feel free to contact me about anything you find interesting or have questions about.
 

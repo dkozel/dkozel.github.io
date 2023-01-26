@@ -5,6 +5,10 @@ date: 2018-12-24T05:51:58-00:00
 draft: false
 layout: single 
 slug: ltz1000
+menu: 
+  sectionmenu:
+    parent: project
+    weight: 15
 ---
 
 I'm building three voltage references based on the Analog Devices (Linear Tech) LTZ1000. The PCB design is by Branadic and the main LTZ1000 circuit is by Dr Frank, both from the EEVBlog Forum.

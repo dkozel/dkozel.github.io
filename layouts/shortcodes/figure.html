@@ -2,7 +2,12 @@
     {{- if .Get "link" -}}
         <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
     {{- end }}
+    {{ $imgResource := $.Page.Resources.GetMatch (.Get "src") }}
+    {{ if $imgResource }}
+    <img src="{{ $imgResource.RelPermalink }}"
+    {{ else }}
     <img src="{{ .Get "src" }}"
+    {{ end }}
          {{- if or (.Get "alt") (.Get "caption") }}
          alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
          {{- end -}}

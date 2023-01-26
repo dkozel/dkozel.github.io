@@ -6,9 +6,60 @@
 		<div class="container">
 			<div class="columns">
 				<div class="column is-8 is-offset-2">
+					{{ $content_parts := split .Content "-|-|-" }}
               		<div class="content">
-              		{{ .Content }}
+              		{{ index $content_parts 0 | safe.HTML }}
           			</div>
+
+					<table class="table is-striped is-fullwidth">
+						<thead>
+							<tr>
+								<th>Date Modified</th>
+								<th>Post</th>
+							</tr>
+						</thead>
+						<tbody>
+							{{ range (where .Site.RegularPages "Section" "post") }}
+							<tr>
+								<td>{{ .Date.Format "Jan 2, 2006" }}</td>
+								<td><a href="{{.Permalink}}">{{ .Title }}</a></td>
+							</tr>
+							{{ end }}
+						</tbody>		
+						<tfoot>
+							<tr>
+								<th><a href="{{ "post/" | absURL}}">More posts<span class="icon">➤</span></a></th>
+								<td></td>
+							</tr>
+						</tfoot>
+					</table>
+
+					<table class="table is-striped is-fullwidth">
+						<thead>
+							<tr>
+								<th>Date Updated</th>
+								<th>Project</th>
+							</tr>
+						</thead>
+						<tbody>
+							{{ range (where .Site.RegularPages "Section" "project") }}
+							<tr>
+								<td>{{ .Date.Format "Jan 2, 2006" }}</td>
+								<td><a href="{{.Permalink}}">{{ .Title }}</a></td>
+							</tr>
+							{{ end }}
+						</tbody>		
+						<tfoot>
+							<tr>
+								<th><a href="{{ "project/" | absURL}}">More projects<span class="icon">➤</span></a></th>
+								<td></td>
+							</tr>
+						</tfoot>
+					</table>
+
+					<div class="content">
+						{{ index $content_parts 1 | safe.HTML }}
+					</div>
 				</div>
 			</div>
 		</div>
