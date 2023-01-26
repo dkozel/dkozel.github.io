@@ -14,7 +14,7 @@
 					<table class="table is-striped is-fullwidth">
 						<thead>
 							<tr>
-								<th>Date Modified</th>
+								<th style="width: 33%">Date Modified</th>
 								<th>Post</th>
 							</tr>
 						</thead>
@@ -25,7 +25,7 @@
 								<td><a href="{{.Permalink}}">{{ .Title }}</a></td>
 							</tr>
 							{{ end }}
-						</tbody>		
+						</tbody>
 						<tfoot>
 							<tr>
 								<th><a href="{{ "post/" | absURL}}">More posts<span class="icon">➤</span></a></th>
@@ -37,7 +37,7 @@
 					<table class="table is-striped is-fullwidth">
 						<thead>
 							<tr>
-								<th>Date Updated</th>
+								<th style="width: 33%; white-space: nowrap">Date Updated</th>
 								<th>Project</th>
 							</tr>
 						</thead>
@@ -48,7 +48,7 @@
 								<td><a href="{{.Permalink}}">{{ .Title }}</a></td>
 							</tr>
 							{{ end }}
-						</tbody>		
+						</tbody>
 						<tfoot>
 							<tr>
 								<th><a href="{{ "project/" | absURL}}">More projects<span class="icon">➤</span></a></th>
