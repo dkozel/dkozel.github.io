@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/dkozel
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.derekkozel.com
+  * I am dkozel (https://keybase.io/dkozel) on keybase.
+  * I have a public key ASD-H08iEkEEmDWqncyJ6tRABQMjt6OElXYME2W8iyLwqgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01209588fd2a31a35970dac35529c1bb9812aedd5350e20a33125fa2fcab90eef6340a",
+      "host": "keybase.io",
+      "kid": "0120fe1f4f221241049835aa9dcc89ead440050323b7a38495760c1365bc8b22f0aa0a",
+      "uid": "752217adbf2065bf3364e13521553f19",
+      "username": "dkozel"
+    },
+    "merkle_root": {
+      "ctime": 1553768313,
+      "hash": "12ec91833363b9d7d0ead9efdbced56a73a7d97cd0529d245f748a49518173f336eb0c21d2dbab2497d203cd63bcde3399ef689d7f132c0b1043ca98c1b725b7",
+      "hash_meta": "91fdc84c489510f5d898ee96974b3cb3f9a5508e0ab3a3c1a9a08eaf73322ef0",
+      "seqno": 5044977
+    },
+    "service": {
+      "entropy": "PRxU/7hwbHjkXvZogQk7nM3t",
+      "hostname": "www.derekkozel.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.2"
+  },
+  "ctime": 1553768326,
+  "expire_in": 504576000,
+  "prev": "bdfcc4ef3e8609c5c699bc1cffb41c311207d76d43052dc5e698ccc9d3a6fdcb",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg/h9PIhJBBJg1qp3MierUQAUDI7ejhJV2DBNlvIsi8KoKp3BheWxvYWTESpcCCsQgvfzE7z6GCcXGmbwc/7QcMRIH121DBS3F5pjMydOm/cvEIChuHMspkEMgY5UFyi6jd0p3i+URpZ2jp2UIGwlcGEOEAgHCo3NpZ8RAle0QoIBd4t1KOKKkdfy3WIRuoyeUziOpXoRxYMJm1tX4bZa/Vtxjktw9w2ZPRX+X8N9iUwjoS5znnyGXxGVkBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJIIakzf6lq7er+ZN3u2k8kdtdg+0JIEgHwwy4tmTqRFo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dkozel
+
+==================================================================
