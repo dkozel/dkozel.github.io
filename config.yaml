@@ -9,18 +9,6 @@ baseURL: "https://www.derekkozel.com/"
 languageCode: "en-us"
 title: "Derek Kozel"
 
-# Optional $.Site Variables ----------------------------------------------
-# More info on Site variables; https://gohugo.io/getting-started/configuration/
-#
-# Optional variables can be edited or commented out as desired.
-#
-# author name appears in RSS and Atom feeds; 
-# author email address is optional and can be # commented out.
-author: 
-    name: "Derek Kozel"
-    email: "derek@bitstovolts.com"
-
-# copyright appears in the default site footer 
 copyright: "&copy; Derek Kozel"
 
 # metaDataFormat for new content pages generated with the `hugo new` command if
@@ -41,9 +29,17 @@ paginate: 5  # set very low for demo purposes only, 5 - 10 or more would be reas
 # Uncommenting will result in Disqus capability extended to each blog post.
 # disqusShortname: "yourdiscussshortname"
 
+markup:
+  highlight:
+    lineAnchors: ""
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses:
+    style: tango
+
 # Code oriented optional features:
 # pygments variables tune code syntax highlighting features Hugo provides
-pygmentsUseClasses: true
+pygmentsUseClasses: false
 pygmentsCodefencesGuessSyntax: true
 pygmentsCodefences: true
 
@@ -68,7 +64,13 @@ enableEmoji: false
 # information.
 
 # Access in templates via $.Site.Params.somevariablename 
-params: 
+params:
+    author:
+        name: "Derek Kozel"
+        email: "dkozel@bitstovolts.com"
+
+    favicon: true
+
     # debug: true causes template path to be output at top of page, handy for dev
     debug: false 
 
@@ -81,7 +83,6 @@ params:
 
     # Description: Used per fullname.
     description: "The personal site of Derek Kozel"
-                  
 
     # Sites should customize their logo or wordmark here; Provided via partials/logo.html.
     # used in default navigation and footer.
@@ -142,6 +143,11 @@ menu:
           url: "about/"
           identifier: "about"
           weight: 50
+
+        - name: "Now"
+          url: "now/"
+          identifier: "now"
+          weight: 60
 
 # Syndication feeds atom.xml and rss.xml ---------------------------------
 # Adds Atom feed support in conjunction with /layouts/index.atom.xml
