@@ -11,7 +11,7 @@ menu:
     weight: 10
 ---
 
-![Completed workstation computer](/project/workstation_thumbsup.jpg)
+![Completed workstation computer](workstation_thumbsup.jpg)
 
 The increasing bandwidths of SDR hardware and computational demands of more complex digital communications protocols mean that my hardworking laptop (2013 Lenovo T440p) simply can't keep up with my needs. Now that I'm also doing increasing amounts of electromagnetic simulations for RF power amplifier design it was really time to get a desktop again.
 
@@ -25,7 +25,7 @@ The X570 chipset has been fairly recently released and brings PCIe gen 4 support
 
 I hadn't known that it was possible to dynamically split PCIe lanes between multiple slots before. This is called PCIe Bifurcation and requires BIOS support for different configurations. The Asrock motherboard has x8x8 support which would allow two PCIe cards to run at x8 rates if installed in a physical riser board which electrically splits the lanes. This is more than enough speed for a 10 GigE NIC and a GPU to each run at full capacity.
 
-![PCIe riser](/project/workstation_riser.jpg)
+![PCIe riser](workstation_riser.jpg)
 
 Risers aren't that hard to come by, [Ameri-Rack](http://www.ameri-rack.com/ARC2-PELY423-C7_m.html) sells them and [C_Payne](https://peine-braun.net/shop/index.php?route=information/information&information_id=7) makes custom ones for the enthusiast market. What is tricky is the mechanical room and support for them in small cases. I had initially focused on the NCase M1 case which has room for three slot wide PCIe cards, but thankfully realized after a while that it was meant for a single very wide card and there's no room for a riser to be installed.
 
@@ -48,11 +48,11 @@ Case Fans    | 2x Noctua NF-P12 Redux PWM
 
 As the parts started showing up I was eventually able to test fit the motherboard, PSU, and SATA cable. With the default mounting position it was a definite no-go, but with the PSU shifted 4 mm towards the front (actually touching a rivet on the inside of the front panel!) it just squeezes in. We're a **Go**!
 
-![SATA connectors just fit inside](/project/workstation_sata_squeeze.jpg)
+![SATA connectors just fit inside](workstation_sata_squeeze.jpg)
 
 Parts were still in shipment and the CPU cooler (more on that later) was stuck in customs so I had time to get a little shim board made. Thankfully the SFX mounting hole pattern is a published spec. Combined with some time spent with a caliper and some head scratching I drew this in Pencil CAD.
 
-![Handdrawn diagram of the PSU shim plate](/project/workstation_pencilcad.jpg)
+![Handdrawn diagram of the PSU shim plate](workstation_pencilcad.jpg)
 
 [Neil Smith](https://twitter.com/G4DBN) G4DBN is a friendly acquaintence who I've met a few times at the RSGB Convention and been an avid follower of on Twitter for a while now. He does really awesome metal working in his home shop and has volunteered in the past to do some work for the Cardiff University Amateur Radio Society. I reached out  with my sketch and he agreed to take on the job.
 
@@ -60,13 +60,13 @@ Fair to say he more than did justice to it. And if you look back at the Pencil C
 
 With that plate installed everything else could get installed into the case. At this point I actually had a different fan than the one listed above, the ID-Cooling IS-60. It ended up not fitting in any orientation and I thought I could use a saw to make it fit. As it turns out, no, that did not work. It was resting on top of the RAM and that 1mm of deflection was enough to make the side of the case not fit on.
 
-![The computer running with all the sides off](/project/workstation_firstlight.jpg)
+![The computer running with all the sides off](workstation_firstlight.jpg)
 
 So I swapped that cooler for the Cryorig C7G which fit perfectly. I repacked the case twice until I found a  cable routing that allowed everything to fit in. You can see the aluminum shim plate just above the PSU.
 
-![side view of the PC](/project/workstation_34_view.jpg)
+![side view of the PC](workstation_34_view.jpg)
 
-![side view of the GPU](/project/workstation_gpu_side.jpg)
+![side view of the GPU](workstation_gpu_side.jpg)
 
 The two bottom fans are run exhausting hot air and the CPU, GPU, and PSU fans are drawing in fresh air. I plan on adding a 3D printed or laser cut acrylic fan shroud for the CPU as I've heard that can make a few degree difference and reduce turbulance noise a little. We'll see. Idle temperatures are all pretty good right now, ~30-40C and under load the CPU peaks around 75C. I'm hoping to pull that down a bit more with some tuning. It's definitely not loud, but with some adjustments to the fan curves I think it will be almost silent at idle without much temperature impact.
 
