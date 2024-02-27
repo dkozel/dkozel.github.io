@@ -7,7 +7,7 @@ layout: single
 slug: hire-me 
 ---
 
-I am currently working on high efficiency RF power amplifier design as a PhD researcher at Cardiff University's Centre for High Frequency Engineering. Due to this and side-effects of the Coronavirus pandemic I am not accepting any work at the moment. If you are looking for information about GNU Radio, workshops, or are looking for contractors please contact me and I'll do my best to connect you with people who are able to provid these services. 
+I am currently wrapping up a PhD on high efficiency RF power amplifier design at Cardiff University's Centre for High Frequency Engineering. Due to this I am not accepting any work at the moment. If you are looking for information about GNU Radio, workshops, or are looking for contractors please contact me and I'll do my best to connect you with people who are able to provid these services. 
 
 ## Workshops
 
