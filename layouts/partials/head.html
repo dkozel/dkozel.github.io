@@ -10,7 +10,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="index,follow">
-	<base href="{{ .Site.BaseURL }}">
+	<base href="{{ .Permalink }}">
 	{{ if ne .Kind "404" }}<link rel="canonical" href="{{ .Permalink }}">
 	{{- with $.Site.Params.description }}<meta name="description" content="{{.}}">{{ end }}
 	{{- range .AlternativeOutputFormats }} <!-- RSS, Atom feeds -->
@@ -33,3 +33,24 @@
 	<meta name="generator" content="Hugo" />
 
   {{- partial "favicon.html" . -}}
+
+  <script>
+	MathJax = {
+	  tex: {
+		inlineMath: [['$', '$'], ['\\(', '\\)']],
+		displayMath: [['$$','$$'], ['\\[', '\\]']],
+		processEscapes: true,
+		processEnvironments: true
+	  },
+	  options: {
+		skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+	  }
+	};
+  
+	window.addEventListener('load', (event) => {
+		document.querySelectorAll("mjx-container").forEach(function(x){
+		  x.parentElement.classList += 'has-jax'})
+	  });
+  
+  </script>
+
