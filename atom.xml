@@ -1,13 +1,40 @@
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Index on Derek Kozel</title><link href="https://www.derekkozel.com/atom.xml" rel="self"/><link href="https://www.derekkozel.com/"/><generator uri="https://gohugo.io/" version=".Hugo.Version">Hugo -- gohugo.io</generator><updated>2018-03-01T00:00:00+00:00</updated><id>https://www.derekkozel.com/</id><entry><title>Now</title><link href="https://www.derekkozel.com/now/"/><id>https://www.derekkozel.com/now/</id><author><name>map[email:dkozel@bitstovolts.com name:Derek Kozel]</name></author><published>2024-02-27T10:12:00+00:00</published><updated>2024-02-27T10:12:00+00:00</updated><content type="html">
-What am I up to now? What is a /now page?
-Doing I am currently wrapping up a PhD on high efficiency RF power amplifier design at Cardiff University&amp;rsquo;s Centre for High Frequency Engineering.</content></entry><entry><title>Consulting and Training</title><link href="https://www.derekkozel.com/hire-me/"/><id>https://www.derekkozel.com/hire-me/</id><author><name>map[email:dkozel@bitstovolts.com name:Derek Kozel]</name></author><published>2019-12-08T11:51:58+00:00</published><updated>2019-12-08T11:51:58+00:00</updated><content type="html">
-I am currently wrapping up a PhD on high efficiency RF power amplifier design at Cardiff University&amp;rsquo;s Centre for High Frequency Engineering.</content></entry><entry><title>Consulting and Training</title><link href="https://www.derekkozel.com/consulting/"/><id>https://www.derekkozel.com/consulting/</id><author><name>map[email:dkozel@bitstovolts.com name:Derek Kozel]</name></author><published>2019-12-08T11:50:58+00:00</published><updated>2019-12-08T11:50:58+00:00</updated><content type="html">
-I am currently working on high efficiency RF power amplifier design as a PhD researcher at Cardiff University&amp;rsquo;s Centre for High Frequency Engineering.</content></entry><entry><title>GNU Radio and USRP Training</title><link href="https://www.derekkozel.com/training/"/><id>https://www.derekkozel.com/training/</id><author><name>map[email:dkozel@bitstovolts.com name:Derek Kozel]</name></author><published>2019-12-08T11:50:58+00:00</published><updated>2019-12-08T11:50:58+00:00</updated><content type="html">
-I run workshops and direct training sessions covering Software Defined Radio, GNU Radio, Ettus Research/National Instruments USRP Radios, and the RFNoC FPGA Digital Signal Processing framework.</content></entry><entry><title>About</title><link href="https://www.derekkozel.com/about/"/><id>https://www.derekkozel.com/about/</id><author><name>map[email:dkozel@bitstovolts.com name:Derek Kozel]</name></author><published>2018-12-23T15:51:58+00:00</published><updated>2018-12-23T15:51:58+00:00</updated><content type="html">
-Hello and welcome to my site. My name is Derek. I&amp;rsquo;m an electrical engineer with a particular passion for embedded sytems, RF communications, and aerospace applications.</content></entry><entry><title>Projects</title><link href="https://www.derekkozel.com/project/"/><id>https://www.derekkozel.com/project/</id><author><name>map[email:dkozel@bitstovolts.com name:Derek Kozel]</name></author><published>2018-12-23T15:51:58+00:00</published><updated>2018-12-23T15:51:58+00:00</updated><content type="html">
-Voltage Reference The LTZ1000 is a packaged ultra stable voltage reference with a buried zener diode and heating resistor. I&amp;rsquo;m building three 10 Volt references based on a design by Dr Frank Stellmach and André Bülau.</content></entry><entry><title>Talks</title><link href="https://www.derekkozel.com/talks/"/><id>https://www.derekkozel.com/talks/</id><author><name>map[email:dkozel@bitstovolts.com name:Derek Kozel]</name></author><published>2018-12-23T15:51:58+00:00</published><updated>2018-12-23T15:51:58+00:00</updated><content type="html">
-Digital Predistortion
-FOSDEM: Free and Open source Software Developers European Meeting
-February 3, 2019
-Event Slides Flowgraphs
-Intro to GNU Radio</content></entry><entry><title>Posts</title><link href="https://www.derekkozel.com/post/"/><id>https://www.derekkozel.com/post/</id><author><name>map[email:dkozel@bitstovolts.com name:Derek Kozel]</name></author><published>2017-03-28T22:40:38-07:00</published><updated>2017-03-28T22:40:38-07:00</updated><content type="html"></content></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Index on Derek Kozel</title><link href="https://www.derekkozel.com/atom.xml" rel="self"/><link href="https://www.derekkozel.com/"/><generator uri="https://gohugo.io/" version=".Hugo.Version">Hugo -- gohugo.io</generator><updated>2018-03-01T00:00:00+00:00</updated><id>https://www.derekkozel.com/</id><entry><title>Now</title><link href="https://www.derekkozel.com/now/"/><id>https://www.derekkozel.com/now/</id><author><name>map[email:dkozel@bitstovolts.com name:Derek Kozel]</name></author><published>2024-02-27T10:12:00+00:00</published><updated>2024-02-27T10:12:00+00:00</updated><content type="html"><![CDATA[
+<h2 id="what-am-i-up-to-now">What am I up to now?</h2>
+<p><a href="https://sive.rs/nowff">What is a <code>/now</code> page?</a></p>
+<h3 id="doing">Doing</h3>
+<p>I am currently wrapping up a PhD on high efficiency RF power amplifier design at Cardiff University&rsquo;s Centre for High Frequency Engineering. It&rsquo;s been a journey since October 2018 and I&rsquo;m hopeful that it&rsquo;ll be something to reflect on later this year with a bit of space between me and the trenches.</p>
+]]></content></entry><entry><title>Consulting and Training</title><link href="https://www.derekkozel.com/hire-me/"/><id>https://www.derekkozel.com/hire-me/</id><author><name>map[email:dkozel@bitstovolts.com name:Derek Kozel]</name></author><published>2019-12-08T11:51:58+00:00</published><updated>2019-12-08T11:51:58+00:00</updated><content type="html"><![CDATA[
+<p>I am currently wrapping up a PhD on high efficiency RF power amplifier design at Cardiff University&rsquo;s Centre for High Frequency Engineering. Due to this I am not accepting any work at the moment. If you are looking for information about GNU Radio, workshops, or are looking for contractors please contact me and I&rsquo;ll do my best to connect you with people who are able to provid these services.</p>
+]]></content></entry><entry><title>Consulting and Training</title><link href="https://www.derekkozel.com/consulting/"/><id>https://www.derekkozel.com/consulting/</id><author><name>map[email:dkozel@bitstovolts.com name:Derek Kozel]</name></author><published>2019-12-08T11:50:58+00:00</published><updated>2019-12-08T11:50:58+00:00</updated><content type="html">
+&lt;p>I am currently working on high efficiency RF power amplifier design as a PhD researcher at Cardiff University&amp;rsquo;s Centre for High Frequency Engineering. Due to this I am not accepting any contracts longer than a few days, or an average of half a day a week for longer contracts.&lt;/p>
+</content></entry><entry><title>GNU Radio and USRP Training</title><link href="https://www.derekkozel.com/training/"/><id>https://www.derekkozel.com/training/</id><author><name>map[email:dkozel@bitstovolts.com name:Derek Kozel]</name></author><published>2019-12-08T11:50:58+00:00</published><updated>2019-12-08T11:50:58+00:00</updated><content type="html">
+&lt;p>I run workshops and direct training sessions covering Software Defined Radio, GNU Radio, Ettus Research/National Instruments USRP Radios, and the RFNoC FPGA Digital Signal Processing framework. These are conducted on-site for groups of 1-10 participants.&lt;/p>
+</content></entry><entry><title>About</title><link href="https://www.derekkozel.com/about/"/><id>https://www.derekkozel.com/about/</id><author><name>map[email:dkozel@bitstovolts.com name:Derek Kozel]</name></author><published>2018-12-23T15:51:58+00:00</published><updated>2018-12-23T15:51:58+00:00</updated><content type="html"><![CDATA[
+<figure class="image is-128x128">
+    
+    
+    <img src="/about/dkozel_portrait.jpg"
+    
+         alt="A photo of Derek Kozel" class="is-rounded"/> 
+</figure>
+
+<p>Hello and welcome to my site. My name is Derek. I&rsquo;m an electrical engineer with a particular passion for embedded sytems, RF communications, and aerospace applications. My PhD research is into High Efficiency RF Power Amplifier design using Load Modulation techniques. I am an Amateur Radio operator currently focusing on the design and construction of systems for microwave bands. Prior to my current work I&rsquo;ve worked on Software Defined cellular basestation radios and developed low power sensor nodes. My masters work and courses involved evolutionary algorithms and low power computer architecture and software design.</p>
+]]></content></entry><entry><title>Projects</title><link href="https://www.derekkozel.com/project/"/><id>https://www.derekkozel.com/project/</id><author><name>map[email:dkozel@bitstovolts.com name:Derek Kozel]</name></author><published>2018-12-23T15:51:58+00:00</published><updated>2018-12-23T15:51:58+00:00</updated><content type="html"><![CDATA[
+<h2 id="voltage-referenceprojectsltz1000"><a href="/projects/ltz1000">Voltage Reference</a></h2>
+<p>The LTZ1000 is a packaged ultra stable voltage reference with a buried zener diode and heating resistor. I&rsquo;m building three 10 Volt references based on a design by Dr Frank Stellmach and André Bülau.</p>
+]]></content></entry><entry><title>Talks</title><link href="https://www.derekkozel.com/talks/"/><id>https://www.derekkozel.com/talks/</id><author><name>map[email:dkozel@bitstovolts.com name:Derek Kozel]</name></author><published>2018-12-23T15:51:58+00:00</published><updated>2018-12-23T15:51:58+00:00</updated><content type="html"><![CDATA[
+<p><strong>Digital Predistortion</strong><br>
+<em>FOSDEM: Free and Open source Software Developers European Meeting</em><br>
+February 3, 2019<br>
+<a href="https://fosdem.org/2019/schedule/event/sdr_dpd/">Event</a>
+<a href="/talks/FOSDEM2019_Digital_PreDistortion.pdf">Slides</a>
+<a href="/talks/FOSDEM2019_flowgraphs.zip">Flowgraphs</a></p>
+<p><strong>Intro to GNU Radio</strong><br>
+<em>Hackerspace Brussels</em><br>
+January 31, 2019<br>
+<a href="https://hsbxl.be/events/byteweek/2019/gnuradio-analog-digital-communications/">Event</a>
+<a href="/talks/hsbxl19_Intro_to_GNURadio.pdf">Slides</a>
+<a href="/talks/hsbxl19_flowgraphs.zip">Flowgraphs</a></p>
+]]></content></entry><entry><title>Posts</title><link href="https://www.derekkozel.com/post/"/><id>https://www.derekkozel.com/post/</id><author><name>map[email:dkozel@bitstovolts.com name:Derek Kozel]</name></author><published>2017-03-28T22:40:38-07:00</published><updated>2017-03-28T22:40:38-07:00</updated><content type="html">
+
+</content></entry></feed>
