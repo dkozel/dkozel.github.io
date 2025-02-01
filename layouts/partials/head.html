@@ -18,7 +18,7 @@
 	      href="{{ .Permalink | safeURL }}" title="{{ $.Site.Title }}">{{ end }}
 	{{- end }}
 
-	{{ $style := resources.GetMatch "bulma-kiss.scss" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
+	{{ $style := resources.GetMatch "bulma-kiss.scss" | css.Sass (dict "outputStyle" "compressed") | fingerprint }}
 	<link rel="preload" href="{{ $style.Permalink }}" as="style">
 	<link rel="stylesheet" href="{{ $style.Permalink }}">
 

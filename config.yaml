@@ -22,12 +22,7 @@ metaDataFormat: yaml
 summaryLength: 20
 
 # paginate sets the maximum number of items (pages) in a page listing.
-paginate: 5  # set very low for demo purposes only, 5 - 10 or more would be reasonable 
-
-# Disqus is a popular commenting system; to get an account visit:
-# https://disqus.com/admin/create/`
-# Uncommenting will result in Disqus capability extended to each blog post.
-# disqusShortname: "yourdiscussshortname"
+pagination.pagerSize: 5  # set very low for demo purposes only, 5 - 10 or more would be reasonable 
 
 markup:
   highlight:
@@ -36,6 +31,9 @@ markup:
     lineNumbersInTable: true
     noClasses:
     style: tango
+  goldmark:
+    renderer:
+        unsafe: true
 
 # Code oriented optional features:
 # pygments variables tune code syntax highlighting features Hugo provides
