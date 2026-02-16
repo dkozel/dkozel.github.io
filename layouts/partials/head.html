@@ -18,7 +18,14 @@
 	      href="{{ .Permalink | safeURL }}" title="{{ $.Site.Title }}">{{ end }}
 	{{- end }}
 
-	{{ $style := resources.GetMatch "bulma-kiss.scss" | css.Sass (dict "outputStyle" "compressed") | fingerprint }}
+	{{ $sassOpts := dict
+		"outputStyle" "compressed"
+		"transpiler" "dartsass"
+		"includePaths" (slice "assets" "themes/bulma-kiss/assets")
+		"silenceDependencyDeprecations" true
+		"silenceDeprecations" (slice "if-function")
+	}}
+	{{ $style := resources.GetMatch "bulma-kiss.scss" | css.Sass $sassOpts | fingerprint }}
 	<link rel="preload" href="{{ $style.Permalink }}" as="style">
 	<link rel="stylesheet" href="{{ $style.Permalink }}">
 
