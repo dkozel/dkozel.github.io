@@ -27,14 +27,11 @@
 	<link rel="me" href="https://github.com/dkozel">
 	<link rel="authorization_endpoint" href="https://indieauth.com/auth">
 
-	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	{{- if or .Params.math .Params.mathjax }}
+	<!-- MathJax: Only loaded on pages with math content -->
+	<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-	<meta name="generator" content="Hugo" />
-
-  {{- partial "favicon.html" . -}}
-
-  <script>
+	<script>
 	MathJax = {
 	  tex: {
 		inlineMath: [['$', '$'], ['\\(', '\\)']],
@@ -46,11 +43,15 @@
 		skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
 	  }
 	};
-  
+
 	window.addEventListener('load', (event) => {
 		document.querySelectorAll("mjx-container").forEach(function(x){
 		  x.parentElement.classList += 'has-jax'})
 	  });
-  
-  </script>
+	</script>
+	{{- end }}
+
+	<meta name="generator" content="Hugo" />
+
+  {{- partial "favicon.html" . -}}
 

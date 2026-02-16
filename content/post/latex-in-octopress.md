@@ -2,6 +2,7 @@
 layout: single
 title: "Latex in Octopress"
 date: 2014-07-09 02:21:23 +0100
+math: true
 ---
 
 Many of the topics I work with involve math left, right, and center. Being able to use $$\LaTeX$$ is a big feature for me so here's the solution I've come up with so far. Credit certainly goes to  [Dr Zac](http://drz.ac/2013/01/03/blogging-with-math/) and [Felix](http://www.idryman.org/blog/2012/03/10/writing-math-equations-on-octopress/) for their work getting Latex playing nice. I believe that Zac's is the more correct solution given its use of the custom header file rather than modifying the default layout. However Felix has the fix for a bug in MathJax which otherwise turns the entire page white when viewing an equation's source.
