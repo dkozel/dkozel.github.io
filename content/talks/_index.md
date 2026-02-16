@@ -7,6 +7,51 @@ layout: single
 slug: talks 
 ---
 
+**GNU Radio Community and Development**  
+_Australian GNU Radio Days_  
+September 23, 2025 - Adelaide, Australia  
+Keynote  
+[Event](https://events.gnuradio.org/event/27)  
+
+**Fireside Chat**  
+_GNU Radio Conference_  
+September 11, 2025 - Everett, Washington  
+Moderator  
+[Video](https://www.youtube.com/watch?v=KL8I7OGWhMM&t=7540s)  
+
+**Eyes on Earth: NASA's View from Above**  
+**Waves across Waters: The Evolution of Shipboard Radio**  
+_North Atlantic aboard Swan Hellenic's SH Diana_  
+Invited Guest Lecturer  
+June 1-13, 2025  
+  
+**Tutorial: GNU Radio and SDR**  
+_HamSCI Workshop_  
+Invited Tutorial  
+March 15, 2025  
+  
+**Software Defined Radio: Digital Homebrewing**  
+_South African Radio League_  
+Invited technical presentation  
+April 6, 2024  
+  
+**GNU Radio and Opportunities in Open Source and SDR**  
+_IARU Region 1 General Conference_  
+Invited subject-matter expert briefing  
+November 4, 2023 - Zlatibor, Serbia  
+  
+**A Practical Design Template for Doherty Amplifiers**  
+_ARMMS RF & Microwave Society_  
+April 18, 2023 - Oxford, UK  
+  
+**Open Source Development, SDR, and GNU Radio**  
+_Microsoft_  
+April 30, 2021  
+  
+**GNU Radio: A Toolkit for the Wireless World**  
+_Cambridge University Wireless Society_  
+February 14, 2019  
+
 **Digital Predistortion**  
 _FOSDEM: Free and Open source Software Developers European Meeting_  
 February 3, 2019  
