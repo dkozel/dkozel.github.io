@@ -35,12 +35,6 @@ markup:
     renderer:
         unsafe: true
 
-# Code oriented optional features:
-# pygments variables tune code syntax highlighting features Hugo provides
-pygmentsUseClasses: false
-pygmentsCodefencesGuessSyntax: true
-pygmentsCodefences: true
-
 # enableGitInfo populates a .GitInfo object for each git-managed page 
 # The theme does not currently make use of the information.
 enableGitInfo: false
